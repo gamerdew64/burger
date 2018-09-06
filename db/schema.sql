@@ -7,7 +7,7 @@ CREATE DATABASE burgers_db;
 -- Using the database that was just created
 USE burgers_db;
 
--- Create the table wishes.
+-- Creating the burgers table.
 CREATE TABLE burgers
 (
 id INT NOT NULL AUTO_INCREMENT,

@@ -10,11 +10,13 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+// Setting up handlebars
 app.use(methodOverride('_method'));
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-var routes = require('./controllers/routes.js');
+// Creating a new routes variable that requires the burgers_controller.js routing file
+var routes = require('./controllers/burgers_controller.js');
 app.use('/', routes);
 
 // Setting the port of the application
