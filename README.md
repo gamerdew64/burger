@@ -12,8 +12,6 @@
 ## Getting Started
 
 --- Add deployment notes in release 2.0
---- Add deployment notes in release 2.0
---- Add deployment notes in release 2.0
 
 ### Installing
 
@@ -21,27 +19,27 @@ Please refer to the following steps to try the app for yourself:
 
 Step One:
 ```
-Text Text Text
+Clone git repository to your machine
 ```
 
 Step Two:
 ```
-Text Text Text
+Run "npm install" in the "burger" directory to install the necessary modules and dependencies
 ```
 
 Step Three:
 ```
-Text Text Text
+Open your terminal and navigate to where you cloned the burger repository
 ```
 
 Step Four:
 ```
-Text Text Text
+-Type "node server.js" and then press enter
 ```
 
 Step Five:
 ```
-Text Text Text
+-Open your web browser, and type localhost:8080 to connect and run the app!
 ```
 
 ## Deployment
